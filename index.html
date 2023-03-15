@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos Inolvidables</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- HEADER - NAVBAR -->
+    <section id="header">
+        <a href="#"><img src="assets/img/logo.png" class="header_logo" alt="" height="100px"></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <div class="dropdown active">
+                        <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Servicios
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item text-dark" href="eventos.html">Eventos</a></li>
+                            <li><a class="dropdown-item text-dark" href="alquiler.html">Alquiler de vajilla</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li>
+                    <div class="dropdown active">
+                        <a class="btn" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="far fa-user"></i>
+                        </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item text-dark" href="login.html">Iniciar Sesión</a></li>
+                            <li><a class="dropdown-item text-dark" href="registro.html">Registro</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- HERO -->
+    <section id="hero">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active d-item">
+                    <img src="assets/img/boda.png" class="d-block w-100 d-img" alt="slider 1">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="mt-5 fs-3 text-light text-uppercase">
+                            Celebraciones Inolvidables
+                        </p>
+                        <h1 class="display-1 text-light fw-bolder text-capitalize">Bodas</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5 btn_hero">Cotizar</button>
+                    </div>
+                </div>
+                <div class="carousel-item active d-item">
+                    <img src="assets/img/graduacion.png" class="d-block w-100 d-img" alt="slider 1">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="mt-5 fs-3 text-light text-uppercase">
+                            Experiencias Únicas
+                        </p>
+                        <h1 class="display-1 text-light fw-bolder text-capitalize">Graduaciones</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5 btn_hero">Cotizar</button>
+                    </div>
+                </div>
+                <div class="carousel-item active d-item">
+                    <img src="assets/img/cumpleaños.png" class="d-block w-100 d-img" alt="slider 1">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="mt-5 fs-3 text-light text-uppercase">
+                            Fiestas Increíbles
+                        </p>
+                        <h1 class="display-1 text-light fw-bolder text-capitalize">Cumpleaños</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5 btn_hero">Cotizar</button>
+                    </div>
+                </div>
+                <div class="carousel-item active d-item">
+                    <img src="assets/img/cena.png" class="d-block w-100 d-img" alt="slider 1">
+                    <div class="carousel-caption top-0 mt-4">
+                        <p class="mt-5 fs-3 text-light text-uppercase">
+                            Cenas Mágicas
+                        </p>
+                        <h1 class="display-1 text-light fw-bolder text-capitalize">Cenas</h1>
+                        <button class="btn btn-primary px-4 py-2 fs-5 mt-5 btn_hero">Cotizar</button>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- CARDS -->
+    <section id="cards" class="section-p1">
+        <div class="card-box">
+            <img src="assets/img/features/mesero.png" alt="">
+            <h6>Catering</h6>
+        </div>
+        <div class="card-box">
+            <img src="assets/img/features/guardia.png" alt="">
+            <h6>Sitio Seguro</h6>
+        </div>
+        <div class="card-box">
+            <img src="assets/img/features/parking.png" alt="">
+            <h6>Parqueadero</h6>
+        </div>
+        <div class="card-box">
+            <img src="assets/img/features/dj.png" alt="">
+            <h6>Música sin límites</h6>
+        </div>
+        <div class="card-box">
+            <img src="assets/img/features/cliente.png" alt="">
+            <h6>Cuidamos al Cliente</h6>
+        </div>
+        <div class="card-box">
+            <img src="assets/img/features/soporte.png" alt="">
+            <h6>Soporte</h6>
+        </div>
+    </section>
+
+    <!-- PRODUCTOS EVENTOS -->
+    <section id="product1" class="section-p1">
+        <h2>Eventos Destacados</h2>
+        <p>Los mejores eventos realizados</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="assets/img/eventos/boda1.png" alt="">
+                <div class="des">
+                    <span>Boda Luisa & Jorge</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/cumpleaños1.png" alt="">
+                <div class="des">
+                    <span>Cumpleaños Melanie</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/graduacion.png" alt="">
+                <div class="des">
+                    <span>Graduacion PIO XII</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/boda2.png" alt="">
+                <div class="des">
+                    <span>Boda Laura & Mateo</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/quinceañera.png" alt="">
+                <div class="des">
+                    <span>Quinceañera Melissa</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/evento1.png" alt="">
+                <div class="des">
+                    <span>Evento Empresa La Favorita</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/bautizo.png" alt="">
+                <div class="des">
+                    <span>Bautizo Jeremy</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+            <div class="pro">
+                <img src="assets/img/eventos/boda3.png" alt="">
+                <div class="des">
+                    <span>Boda Melissa & Luis</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER -->
+    <section id="banner" class="section-m1">
+        <h2>Vive <span>experiencias únicas y crea recuerdos inolvidables</span> con nuestros eventos.</h2>
+        <button class="normal">Cotizar</button>
+    </section>
+
+    <!-- PRODUCTOS VAJILLAS -->
+    <section id="product1" class="section-p1">
+        <h2>Vajillas de alquiler</h2>
+        <p>Organiza tus eventos con vajillas de calidad</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="assets/img/vajilla/plato1.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>Plato Hondo</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/plato2.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>Plato plano</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/plato3.png" alt="">
+                <div class="des">
+                    <span>Plato base</span>
+                    <h5>Lorem ipsum dolor sit </h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/plato4.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>PLato de postre</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/cubiertos.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>Cubiertos</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/copa de vino.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>Copa de vino</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/copa de agua.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>Copa de agua</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="assets/img/vajilla/vaso.png" alt="">
+                <div class="des">
+                    <span>Luminarc</span>
+                    <h5>Vasos</h5>
+                    <h4>$40</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- BANNER -->
+    <section id="banner2" class="section-m1">
+        <h2><span>Las mejores vajillas</span> para tus eventos.</h2>
+        <button class="normal">Cotizar</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="section-p1">
+        <div class="col-e">
+            <img class="logo" src="/assets/img/logo2.png" alt="">
+            <h4>Contacto</h4>
+            <p><strong>Dirección:</strong> Av Rio Toachi y Río Pilaton, Santo Domingo de los Tsáchilas, Ecuador</p>
+            <p><strong>Teléfono:</strong> +593 99 191 0652</p>
+            <p><strong>Horarios:</strong> 8:00 - 18:00, Lunes - Sábado</p>
+            <div class="follow">
+                <h4>Síguenos</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col-e">
+            <h4>Nosotros</h4>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="#">Políticas de Privacidad</a>
+            <a href="#">Términos y Condiciones</a>
+            <a href="contacto.html">Contacto</a>
+        </div>
+        <div class="col-e">
+            <h4>Mi Cuenta</h4>
+            <a href="login.html">Iniciar Sesión</a>
+            <a href="cart.html">Ver Carrito</a>
+            <a href="cart.html">Mi lista de deseos</a>
+            <a href="#">Ayuda</a>
+        </div>
+        <div class="copyright">
+            <p>© Copyright 2023, Todos los derechos reservados Eventos Inolvidables | Plataforma de comercio electrónico
+            </p>
+        </div>
+    </footer>
+
+    <script src="../assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
